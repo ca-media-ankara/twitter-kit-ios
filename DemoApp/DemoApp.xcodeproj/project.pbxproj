@@ -13,8 +13,6 @@
 		377340651ECA3D080065FFE0 /* DeletedTweet.json in Resources */ = {isa = PBXBuildFile; fileRef = 377340641ECA3D080065FFE0 /* DeletedTweet.json */; };
 		377783891E96AF1700BC4830 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 377783881E96AF1700BC4830 /* TwitterKitResources.bundle */; };
 		3777838B1E96AFD500BC4830 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3777838A1E96AFD500BC4830 /* Images.xcassets */; };
-		377941681E96DBCF0049A022 /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941631E96DBCF0049A022 /* MoPub.framework */; };
-		3789B0F21E96E60F0026BBBC /* MoPub.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941631E96DBCF0049A022 /* MoPub.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		379A6CAC1E95B47300625984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CAB1E95B47300625984 /* main.m */; };
 		379A6CAF1E95B47300625984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CAE1E95B47300625984 /* AppDelegate.m */; };
 		379A6CBD1E95B47300625984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379A6CBB1E95B47300625984 /* LaunchScreen.storyboard */; };
@@ -135,7 +133,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3789B0F21E96E60F0026BBBC /* MoPub.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +157,6 @@
 		377340641ECA3D080065FFE0 /* DeletedTweet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DeletedTweet.json; sourceTree = "<group>"; };
 		377783881E96AF1700BC4830 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = ../TwitterKit/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		3777838A1E96AFD500BC4830 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		377941631E96DBCF0049A022 /* MoPub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoPub.framework; path = ../vendor/MoPub.framework; sourceTree = "<group>"; };
 		379A6CA71E95B47300625984 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379A6CAB1E95B47300625984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		379A6CAD1E95B47300625984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -228,7 +224,6 @@
 				379A6D4C1E95B7D100625984 /* libTwitterKit.a in Frameworks */,
 				379A6D4B1E95B7CD00625984 /* libTwitterCore.a in Frameworks */,
 				191FF0FFCC8156460546E43A /* Pods_DemoApp.framework in Frameworks */,
-				377941681E96DBCF0049A022 /* MoPub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +338,6 @@
 			children = (
 				AA3E099520119D3F00792255 /* MapKit.framework */,
 				AAEE1AF81FACCC8300F11160 /* SafariServices.framework */,
-				377941631E96DBCF0049A022 /* MoPub.framework */,
 				377783881E96AF1700BC4830 /* TwitterKitResources.bundle */,
 				0E13E2EBAF8AC955FF850B86 /* Pods_DemoApp.framework */,
 				4F6B1411DB662634BE0D19F0 /* Pods_DemoAppTests.framework */,

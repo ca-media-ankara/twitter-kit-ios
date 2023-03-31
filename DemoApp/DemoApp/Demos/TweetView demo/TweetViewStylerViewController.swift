@@ -67,10 +67,7 @@ class TweetViewStylerViewController: UIViewController {
         setupOptionsView()
         setupGenerateButton()
 
-        SVProgressHUD.setDefaultStyle(.dark)
-        SVProgressHUD.show()
         loadTweet(with: "864977390941814784") { [weak self] (tweet, error) in
-            SVProgressHUD.dismiss()
             if let error = error, let weakSelf = self {
                 UIAlertController.showAlert(with: error, on: weakSelf)
             } else if let tweet = tweet {

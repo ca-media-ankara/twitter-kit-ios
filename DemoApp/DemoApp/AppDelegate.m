@@ -7,8 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import <DCIntrospect_ARC/DCIntrospect.h>
-#import <FLEX/FLEX.h>
 #import <TwitterKit/TWTRKit.h>
 #import "DemoApp-Swift.h"
 
@@ -30,10 +28,6 @@
     self.window.rootViewController = [[RootViewController alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-
-#if TARGET_IPHONE_SIMULATOR
-    [[DCIntrospect sharedIntrospector] start];
-#endif
 
     return YES;
 }

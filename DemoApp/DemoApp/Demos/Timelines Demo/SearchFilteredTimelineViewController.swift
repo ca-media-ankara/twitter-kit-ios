@@ -9,7 +9,7 @@
 import UIKit
 
 @objc (SearchFilteredTimelineViewController)
-class SearchFilteredTimelineViewController: TWTRTimelineViewController, DZNEmptyDataSetSource {
+class SearchFilteredTimelineViewController: TWTRTimelineViewController {
 
     convenience init() {
         let client = TWTRAPIClient.withCurrentUser()
@@ -30,8 +30,5 @@ class SearchFilteredTimelineViewController: TWTRTimelineViewController, DZNEmpty
 
         // To remove our default message
         self.tableView.backgroundView = nil
-
-        // For DZNEmptyDataSet
-        self.tableView.emptyDataSetSource = self;
     }
 }

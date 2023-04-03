@@ -1303,6 +1303,7 @@
 		DBFE5B2F1D146D0700C77F64 /* ExtendedTweet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ExtendedTweet.json; sourceTree = "<group>"; };
 		E67CFC6F1C84E66A0045F8A2 /* FABConfig */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FABConfig; path = ../../../vendor/FABConfig; sourceTree = "<group>"; };
 		E67CFC701C84E6710045F8A2 /* xcconfig */ = {isa = PBXFileReference; lastKnownFileType = folder; name = xcconfig; path = ../../../shared/xcconfig; sourceTree = "<group>"; };
+		E97B7E1B29DB129200C1AFF1 /* TwitterKit-Simulator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterKit-Simulator-Info.plist"; sourceTree = "<group>"; };
 		F5154B8119D4E6130054DECF /* TWTRComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTRComposer.h; path = Social/Syndication/Controllers/TWTRComposer.h; sourceTree = "<group>"; };
 		F5154B8219D4E6130054DECF /* TWTRComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRComposer.m; path = Social/Syndication/Controllers/TWTRComposer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -2362,6 +2363,7 @@
 				7B96448A199BE365002117B5 /* TwitterKitResources.bundle */,
 				7BEB12C119AFCBC400A86786 /* TwitterKit-module.modulemap */,
 				7B29001619549287002DBC31 /* TwitterKit-Info.plist */,
+				E97B7E1B29DB129200C1AFF1 /* TwitterKit-Simulator-Info.plist */,
 				E67CFC6E1C84E65D0045F8A2 /* shared */,
 				E67CFC691C84E6590045F8A2 /* vendor */,
 				DB2241761C3DA603008A6DC7 /* libTwitterKit.xcconfig */,
@@ -3502,6 +3504,7 @@
 				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_IDENTITY = "";
 				ENABLE_BITCODE = YES;
+				"INFOPLIST_FILE[sdk=iphonesimulator*]" = "TwitterKit-Simulator-Info.plist";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -3519,6 +3522,7 @@
 				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_IDENTITY = "";
 				ENABLE_BITCODE = YES;
+				"INFOPLIST_FILE[sdk=iphonesimulator*]" = "TwitterKit-Simulator-Info.plist";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

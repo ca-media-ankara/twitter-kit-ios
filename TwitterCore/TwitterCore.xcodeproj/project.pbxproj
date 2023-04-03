@@ -568,6 +568,7 @@
 		DBC0F1281B55CECA006B6BB6 /* TWTRSessionFixtureLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRSessionFixtureLoader.m; path = TestHelpers/TWTRSessionFixtureLoader.m; sourceTree = "<group>"; };
 		E67CFC671C84E5C80045F8A2 /* xcconfig */ = {isa = PBXFileReference; lastKnownFileType = folder; name = xcconfig; path = ../../../shared/xcconfig; sourceTree = "<group>"; };
 		E67CFD441C860B330045F8A2 /* TwitterCore.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = TwitterCore.xcconfig; path = Config/TwitterCore.xcconfig; sourceTree = "<group>"; };
+		E97B7E1C29DB12BB00C1AFF1 /* TwitterCore-Simulator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterCore-Simulator-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -851,6 +852,7 @@
 				9D348B411AAFE73B007837FB /* TwitterCore-ios-module.modulemap */,
 				9DC3DF161C10B9C900C51A38 /* TwitterCore-tvos-module.modulemap */,
 				9D4545471AB23B6200730817 /* TwitterCore-Info.plist */,
+				E97B7E1C29DB12BB00C1AFF1 /* TwitterCore-Simulator-Info.plist */,
 				9D5A92231AAA89730039EFCC /* TwitterCore */,
 				9D5A92301AAA89730039EFCC /* TwitterCoreTests */,
 				9DF52D721ABA96A5004345D0 /* Vendor */,
@@ -1794,6 +1796,7 @@
 				DEFINES_MODULE = YES;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "TwitterCore-Info.plist";
+				"INFOPLIST_FILE[sdk=iphonesimulator*]" = "TwitterCore-Simulator-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(TWC_BUNDLE_IDENTIFIER)";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1811,6 +1814,7 @@
 				DEFINES_MODULE = YES;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "TwitterCore-Info.plist";
+				"INFOPLIST_FILE[sdk=iphonesimulator*]" = "TwitterCore-Simulator-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(TWC_BUNDLE_IDENTIFIER)";
 				VERSIONING_SYSTEM = "apple-generic";

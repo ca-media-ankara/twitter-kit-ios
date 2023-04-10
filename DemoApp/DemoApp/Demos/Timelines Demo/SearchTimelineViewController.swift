@@ -9,7 +9,7 @@
 import UIKit
 
 @objc (SearchTimelineViewController)
-class SearchTimelineViewController: TWTRTimelineViewController, DZNEmptyDataSetSource {
+class SearchTimelineViewController: TWTRTimelineViewController {
 
     convenience init() {
         let client = TWTRAPIClient.withCurrentUser()
@@ -23,17 +23,6 @@ class SearchTimelineViewController: TWTRTimelineViewController, DZNEmptyDataSetS
 
         // To remove our default message
         self.tableView.backgroundView = nil
-
-        // For DZNEmptyDataSet
-        self.tableView.emptyDataSetSource = self;
-    }
-
-    func title(forEmptyDataSet scrollView: UIScrollView) -> NSAttributedString {
-        let text = "Could not find Tweets.";
-        let attributes = [NSFontAttributeName: UIFont.boldSystemFont(ofSize: 18),
-                          NSForegroundColorAttributeName: UIColor.darkGray]
-
-        return NSAttributedString(string: text, attributes: attributes)
     }
 
 }

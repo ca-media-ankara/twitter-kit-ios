@@ -13,16 +13,6 @@
 		377340651ECA3D080065FFE0 /* DeletedTweet.json in Resources */ = {isa = PBXBuildFile; fileRef = 377340641ECA3D080065FFE0 /* DeletedTweet.json */; };
 		377783891E96AF1700BC4830 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 377783881E96AF1700BC4830 /* TwitterKitResources.bundle */; };
 		3777838B1E96AFD500BC4830 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3777838A1E96AFD500BC4830 /* Images.xcassets */; };
-		377941651E96DBCF0049A022 /* DCIntrospect_ARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941601E96DBCF0049A022 /* DCIntrospect_ARC.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		377941661E96DBCF0049A022 /* DZNEmptyDataSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941611E96DBCF0049A022 /* DZNEmptyDataSet.framework */; };
-		377941671E96DBCF0049A022 /* FLEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941621E96DBCF0049A022 /* FLEX.framework */; };
-		377941681E96DBCF0049A022 /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941631E96DBCF0049A022 /* MoPub.framework */; };
-		377941691E96DBCF0049A022 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941641E96DBCF0049A022 /* SVProgressHUD.framework */; };
-		3789B0F21E96E60F0026BBBC /* MoPub.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941631E96DBCF0049A022 /* MoPub.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		3789B0F41E96E6A20026BBBC /* DCIntrospect_ARC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941601E96DBCF0049A022 /* DCIntrospect_ARC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		3789B0F51E96E6A70026BBBC /* DZNEmptyDataSet.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941611E96DBCF0049A022 /* DZNEmptyDataSet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		3789B0F61E96E6AC0026BBBC /* FLEX.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941621E96DBCF0049A022 /* FLEX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		3789B0F71E96E6B10026BBBC /* SVProgressHUD.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941641E96DBCF0049A022 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		379A6CAC1E95B47300625984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CAB1E95B47300625984 /* main.m */; };
 		379A6CAF1E95B47300625984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CAE1E95B47300625984 /* AppDelegate.m */; };
 		379A6CBD1E95B47300625984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379A6CBB1E95B47300625984 /* LaunchScreen.storyboard */; };
@@ -143,11 +133,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3789B0F71E96E6B10026BBBC /* SVProgressHUD.framework in CopyFiles */,
-				3789B0F61E96E6AC0026BBBC /* FLEX.framework in CopyFiles */,
-				3789B0F51E96E6A70026BBBC /* DZNEmptyDataSet.framework in CopyFiles */,
-				3789B0F41E96E6A20026BBBC /* DCIntrospect_ARC.framework in CopyFiles */,
-				3789B0F21E96E60F0026BBBC /* MoPub.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,11 +157,6 @@
 		377340641ECA3D080065FFE0 /* DeletedTweet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DeletedTweet.json; sourceTree = "<group>"; };
 		377783881E96AF1700BC4830 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = ../TwitterKit/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		3777838A1E96AFD500BC4830 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		377941601E96DBCF0049A022 /* DCIntrospect_ARC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DCIntrospect_ARC.framework; path = ../vendor/DCIntrospect_ARC.framework; sourceTree = "<group>"; };
-		377941611E96DBCF0049A022 /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DZNEmptyDataSet.framework; path = ../vendor/DZNEmptyDataSet.framework; sourceTree = "<group>"; };
-		377941621E96DBCF0049A022 /* FLEX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLEX.framework; path = ../vendor/FLEX.framework; sourceTree = "<group>"; };
-		377941631E96DBCF0049A022 /* MoPub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoPub.framework; path = ../vendor/MoPub.framework; sourceTree = "<group>"; };
-		377941641E96DBCF0049A022 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = ../vendor/SVProgressHUD.framework; sourceTree = "<group>"; };
 		379A6CA71E95B47300625984 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379A6CAB1E95B47300625984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		379A6CAD1E95B47300625984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -242,13 +222,8 @@
 				AA3E099620119D4000792255 /* MapKit.framework in Frameworks */,
 				AAEE1AFF1FACCC8300F11160 /* SafariServices.framework in Frameworks */,
 				379A6D4C1E95B7D100625984 /* libTwitterKit.a in Frameworks */,
-				377941651E96DBCF0049A022 /* DCIntrospect_ARC.framework in Frameworks */,
-				377941691E96DBCF0049A022 /* SVProgressHUD.framework in Frameworks */,
 				379A6D4B1E95B7CD00625984 /* libTwitterCore.a in Frameworks */,
-				377941661E96DBCF0049A022 /* DZNEmptyDataSet.framework in Frameworks */,
 				191FF0FFCC8156460546E43A /* Pods_DemoApp.framework in Frameworks */,
-				377941671E96DBCF0049A022 /* FLEX.framework in Frameworks */,
-				377941681E96DBCF0049A022 /* MoPub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,11 +338,6 @@
 			children = (
 				AA3E099520119D3F00792255 /* MapKit.framework */,
 				AAEE1AF81FACCC8300F11160 /* SafariServices.framework */,
-				377941601E96DBCF0049A022 /* DCIntrospect_ARC.framework */,
-				377941611E96DBCF0049A022 /* DZNEmptyDataSet.framework */,
-				377941621E96DBCF0049A022 /* FLEX.framework */,
-				377941631E96DBCF0049A022 /* MoPub.framework */,
-				377941641E96DBCF0049A022 /* SVProgressHUD.framework */,
 				377783881E96AF1700BC4830 /* TwitterKitResources.bundle */,
 				0E13E2EBAF8AC955FF850B86 /* Pods_DemoApp.framework */,
 				4F6B1411DB662634BE0D19F0 /* Pods_DemoAppTests.framework */,
@@ -926,7 +896,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoApp/DemoApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -947,7 +917,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoApp/DemoApp-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

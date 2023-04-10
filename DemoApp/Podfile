@@ -4,12 +4,6 @@ workspace 'DemoApp.xcworkspace'
 
 target 'DemoApp' do
     use_frameworks!
-
-#     pod 'DCIntrospect-ARC', :inhibit_warnings => true
-#     pod 'DZNEmptyDataSet'
-#     pod 'SVProgressHUD'
-#     pod 'FLEX'
-#     pod 'mopub-ios-sdk'
 end
 
 target 'DemoAppTests' do

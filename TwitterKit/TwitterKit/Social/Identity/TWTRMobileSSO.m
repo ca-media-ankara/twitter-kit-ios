@@ -62,16 +62,14 @@
     }
 }
 
-- (BOOL)isSSOWithSourceApplication:(NSString *)sourceApplication
+- (BOOL)isSSOWithURL:(NSURL *)url
 {
-    // If using auth with web view, check that the source application bundle identifier is the same as the app bundle identifier.
-    return [sourceApplication hasPrefix:@"com.twitter"] || [sourceApplication hasPrefix:@"com.atebits"];
+    return [self.loginURLParser isMobileSSOSuccessURL:url] || [self.loginURLParser isMobileSSOCancelURL:url];
 }
 
-- (BOOL)isWebWithSourceApplication:(NSString *)sourceApplication
+- (BOOL)isWebWithURL:(NSURL *)url
 {
-    NSString *bundleID = [[NSBundle mainBundle] bundleIdentifier];
-    return [sourceApplication hasPrefix:@"com.apple"] || [sourceApplication isEqualToString:bundleID];
+    return [url.host isEqualToString:@"callback"];
 }
 
 - (void)triggerInvalidSourceError

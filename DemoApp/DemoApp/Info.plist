@@ -38,8 +38,6 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>MoPubAdUnitID</key>
-	<string>$(MOPUB_AD_UNIT_ID)</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>We would like to allow you to choose a photo to Tweet.</string>
 	<key>TwitterConsumerKey</key>
